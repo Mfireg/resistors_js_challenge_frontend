@@ -1,4 +1,4 @@
-# Resistors Challenge - BackEnd
+# Resistors Challenge - FrontEnd
 Hi :)
 
 ## This project was created using this specific versions:
