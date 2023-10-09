@@ -29,7 +29,7 @@ Here is where you can find [Yarn](https://classic.yarnpkg.com/en/docs/install#de
 
 ## How to run the project
 
-##### Once You have all the requirements completed you just need to open a terminal, navigate to your cloned directory and run the next commands in the exact same order:
+##### Once you have all the requirements completed you just need to open a terminal, navigate to your cloned directory and run the next commands in the exact same order:
 
   
 
