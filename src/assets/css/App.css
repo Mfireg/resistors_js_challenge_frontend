@@ -1,0 +1,223 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.grid-container {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr;
+  height: calc(100vh - 65px);
+}
+
+.div-left {
+  display: flex;
+  background-color: #74ABF3;
+  padding: 20px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: auto;
+  row-gap: 10%;
+  color: #fff;
+}
+
+.div-right {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  height: auto;
+}
+
+.resistor-image {
+  border: 5px solid;
+  border-color: #D4E6F3;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.resistor {
+  width: 200px;
+  height: 40px;
+  background-color: #D4E6F3;
+  border: 1px solid #000;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 2px;
+  position: relative;
+}
+
+.right-connector {
+  width: 80px;
+  height: 5px;
+  background-color: #000;
+  position: absolute;
+  top: 45%;
+  left: 80%;
+  transform: translateY(50%);
+  transform: translateX(50%);
+}
+
+.left-connector {
+  width: 80px;
+  height: 5px;
+  background-color: #000;
+  position: absolute;
+  top: 45%;
+  right: 1%;
+  transform: translateY(-50%);
+  transform: translateX(50%);
+}
+
+.right-connector:first-child {
+  left: -120px;
+}
+
+.right-right-connector:last-child {
+  right: 40px;
+}
+
+.left-connector:first-child {
+  left: 0px;
+}
+
+.left-connector:last-child {
+  right: 0px;
+}
+
+.stripe {
+  width: 10px;
+  height: 38px;
+  position: relative;
+}
+
+.stripe1 {
+  border-left: none;
+}
+
+.stripe2 {
+  border-left: none;
+}
+
+.stripe3 {
+  border-left: none;
+}
+
+.stripe4 {
+  border-left: none;
+}
+
+.green {
+  background: green;
+  border: 2px solid green;
+}
+
+.gray {
+  background: gray;
+  border: 2px solid gray;
+}
+
+.gold {
+  background: gold;
+  border: 2px solid gold;
+}
+
+.black {
+  background: black;
+  border: 2px solid black;
+}
+
+.brown {
+  background: rgb(77, 53, 53);
+  border: 2px solid rgb(77, 53, 53);
+}
+
+.red {
+  background: red;
+  border: 2px solid red;
+}
+
+.orange {
+  background: orange;
+  border: 2px solid orange;
+}
+
+.yellow {
+  background: yellow;
+  border: 2px solid yellow;
+}
+
+.blue {
+  background: blue;
+  border: 2px solid blue;
+}
+
+.violet {
+  background: violet;
+  border: 2px solid violet;
+}
+
+.silver {
+  background: silver;
+  border: 2px solid silver;
+}
+
+.white {
+  background: white;
+  border: 2px solid white;
+}
+
+.no-color {
+  background: transparent;
+  border: 2px solid transparent;
+}
+
+.resistor-info {
+  border: 5px solid;
+  border-color: #D4E6F3;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
